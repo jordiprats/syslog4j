@@ -1,6 +1,4 @@
-# syslog4j
-
-syslog 4 tomcat
+# syslog4tomcat
 
 This valve will send tomcat logs to syslog
 
@@ -13,5 +11,7 @@ Create a syslog configuration file in tomcat's conf directory:
 ```
 # echo "1.2.3.4:514" > conf/syslog
 ```
+
+Both host and port are mandatory
 
 For futher details, please see: http://systemadmin.es/2013/02/mandar-logs-de-tomcat-a-syslog
